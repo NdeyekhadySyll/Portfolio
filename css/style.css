@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: #f1f1f17c;
+}
+
+header{
+    background-color: rgba(247, 32, 68, 0.8);
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 60px;
+}
+
+.padding{
+    padding: 0 7rem;
+}
+
+nav .logo{
+    color: #fff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0px 0px 5px rgba(0,0,0,0.08);
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+nav ul li{
+    padding: 12px 13px;
+}
+
+nav ul li a{
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#section1{
+    padding-top: 5%;
+}
+
+.rose{
+    color: rgba(247, 32, 68, 0.8);
+    font-weight: 700;
+}
+.gauche-droite{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.gauche{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.gauche h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-image: text;
+    color: transparent;
+    -webkit-text-stroke: 2px rgba(247, 32, 68, 0.8);
+}
+
+.gauche p{
+    font-weight: 500;
+    color: rgb(61, 60, 60);
+    line-height: 25px;
+    font-size: 1.1rem;
+}
+
+.buttons{
+    display: flex;
+    gap: 30px;
+    padding-top: 30px;
+}
+
+.buttons button{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.08);
+    background-color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#btn-2{
+    background-color: rgba(247, 32, 68, 0.8);
+    color: #fff;
+}
+
+.droite{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.image{
+    width: 80%;
+    background-color: rgba(247, 32, 68, 0.8);
+    border-radius: 8px;
+    box-shadow: 2px 3px 20px rgba(255,255,255, .09),-2px -3px 15px rgba(247, 32, 68, 0.8);
+    padding: 10px;
+
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+    max-width: 350px;
+    max-height: 350px;
+    object-fit: cover;
+}
+
+/* A propos */
+
+#about{
+    padding-top: 4%;
+}
+
+.presentation{
+    display: flex;
+    padding: 30px 0;
+}
+
+.titre{
+    width: 40%;
+}
+
+.titre h1{
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    color: rgba(247, 32, 68, 0.8);
+}
+
+.paragraphe{
+    width: 60%;
+    line-height: 32px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.blog{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.formation,.objectif{
+    flex: 1;
+    background-color: rgba(0,0,0,0.08);
+    padding: 0 20px 20px;
+    border-radius: 10px;
+    max-width: 600px;
+
+    h2{
+        color: rgba(247, 32, 68, 0.8);
+        font-weight: 700;
+        text-transform: uppercase;
+        padding: 20px 0;
+    }
+}
+
+.objectif p{
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.formation ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#Competences{
+    padding: 5%;
+    height: 80vh;
+}
+
+#Competences ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#Competences ul li{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+#Competences p{
+    font-weight: 700;
+}
+
+#Competences h2{
+    padding: 10px 0;
+}
+
+span img{
+    width: 50px;
+}
+
+.range{
+    width: 400px;
+    height: 9px;
+    border: 1px solid #ccc;
+    border-radius: 9999px;
+}
+
+.c,.html,.css,.js ,.Word , .excel , .pp{
+    height: 100%;
+    background-color: rgba(247, 32, 68, 0.8);
+}
+
+.Word {
+    width: 80%;
+}
+
+.excel {
+    width: 30%;
+}
+.pp{
+    width: 40%;
+}
+
+
+
+.c{
+    width: 50%;
+}
+
+.html{
+    width: 90%;
+}
+
+.css{
+    width: 30%;
+}
+
+.js{
+    width: 20%;
+}
+
+#hobbies,#contact{
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#hobbies p{
+    font-weight: 700;
+}
+
+#hobbies ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#hobbies ul li{
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.form-container{
+    padding: 20px;
+}
+
+#contactForm{
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.flex{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.flex div, .form-group div{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+input,textarea{
+    padding: 12px 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+textarea{
+    resize: none;
+    height: 150px;
+}
+
+button{
+    padding: 12px 25px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.realisation{
+    padding: 5%;
+}
+
+.realisation ul {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.realisation ul li a{
+    font-weight: 700;
+    border: 1px solid #ccc;
+    padding: 12px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}

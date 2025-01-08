@@ -1,0 +1,49 @@
+.left-cv{
+  
+    min-height: 100vh;
+    width: 30%;
+    background: rgb(221, 216, 216)
+}y
+.right-cv{
+  
+    min-height: 100vh;
+    width: 70%;
+    background: rgb(243, 242, 242);
+  
+}
+.main-content{
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+
+}
+.left-cv img{
+    border-radius: 50%;
+}
+hr{
+   background-color: grey; 
+   height: 4px;
+   margin: 10px 0 0px 0;
+}
+a{
+    color: black;
+}
+.right-cv h1{
+    padding: 0px 0px 0px 10px;
+}
+.right-cv p{
+    padding: 0px 0px 0px 15px;
+}
+h2{
+    padding: 0px 0px 0px 15px;
+
+}
+h1{
+    padding: 0px 0px 0px 15px ;
+}
+p{
+    padding: 0px 0px 0px 15px;
+}
+.hr{
+    padding: 0px 0px 0px 15px;
+}
